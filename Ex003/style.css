@@ -1,0 +1,48 @@
+/* Linkando a fonte */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+/* Linkando a fonte */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10%;
+}
+
+.apresentacao_conteudo {
+    width: 615px;
+}
+
+.apresentacao_conteudo_titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.apresentacao_conteudo_texto {
+    font-size: 26px;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+.apresentacao_links {
+    display: flex;
+    justify-content: space-between;
+}
